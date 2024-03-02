@@ -5,9 +5,11 @@
   "author": "Rogelio Menco",
   "license": "MIT",
   "scripts": {
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d src",
+    "format": "prettier --write ."
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
+    "gh-pages": "^6.1.1",
+    "prettier": "^3.2.5"
   }
 }
