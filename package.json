@@ -1,0 +1,13 @@
+{
+  "name": "sudoku",
+  "version": "1.0.0",
+  "main": "src/index.html",
+  "author": "Rogelio Menco",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
