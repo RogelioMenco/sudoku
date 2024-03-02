@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Sudoku</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--Titulo-->
+    <div>
+        <div id="contenedor_titulo">
+            <p id="titulo_sudoku">Sudoku</p>
+        </div>
+    </div>
+
+    <!--Sudoku-->
+    <div id="contenedor_sudoku">
+    </div>
+    <!--Fin sudoku-->
+
+    <div id="contenedor_botones">
+        <div id="contenedor_botones_centro">
+            <input class="boton_sudoku" id="boton_generar" type="submit" value="GENERAR">
+            <input class="boton_sudoku" id="boton_verificar" type="submit" value="VERIFICAR">
+            <input class="boton_sudoku" id="boton_resolver" type="submit" value="RESOLVER">
+        </div>
+    </div>
+
+    <!--Script-->
+    <script type="text/javascript" src="generador-sudoku.js"></script>
+    <script type="text/javascript" src="tabla-sudoku.js"></script>
+    <script type="text/javascript" src="sudoku.js"></script>
+</body>
+
+</html>

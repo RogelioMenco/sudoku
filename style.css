@@ -1,0 +1,72 @@
+:root {
+    font-family: 'Courgette', cursive;
+}
+
+body {
+    background-image: url('imagen/Fondo.png');
+}
+
+.entrada_sudoku {
+    width: 1em;
+    height: 1em;
+    font-size: 3em;
+    text-align: center;
+    background-color: burlywood;
+    color: black;
+    opacity: 0.5;
+    border-color: tomato;
+    border-radius: 5px;
+}
+
+#titulo_sudoku {
+    color: #6f4e37;
+    font-size: 50px;
+    padding: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#contenedor_titulo {
+    width: 394px;
+    height: 121px;
+    margin: 1em auto;
+    text-align: center;
+    background-image: url("imagen/Fondo_Titulo.png");
+}
+
+#contenedor_botones {
+    margin: 1em auto;
+}
+
+#contenedor_botones_centro {
+    width: 50%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 474px;
+}
+
+#tabla_sudoku {
+    margin: auto;
+}
+
+.boton_sudoku {
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+    color: #DEB887;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 20px;
+    height: 50px;
+    transition: all .4s ease-in-out;
+    margin: 0 5px;
+    background-image: linear-gradient(to right, #442600, #a75e00, #442600, #a75e00);
+    box-shadow: 0 4px 15px 0 rgba(68, 38, 0, 0.75);
+    font-family: 'Poppins', sans-serif;
+}
+
+.boton_sudoku:hover {
+    background-position: 100% 0;
+    transition: all .4s ease-in-out;
+}
